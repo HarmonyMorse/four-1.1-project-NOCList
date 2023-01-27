@@ -63,7 +63,6 @@ func numOfCompAgents() -> Int {
         
         if agent.3 == true {
             num += 1
-            print(agent)
         }
     }
     return num
@@ -72,7 +71,7 @@ func numOfCompAgents() -> Int {
 //: ## Step 4
 //: Call the above function to find the total number of compromised agents and then print a sentence that says "# agents have been compromised!" using string interpolation.
 
-
+print("\(numOfCompAgents()) agents have been compromised!")
 
 //: ## Step 5
 //: Create a function called "findCleanAgents" that both prints the cover names of all uncompromised agents, as well as returns an array of agents that are uncompromised.
