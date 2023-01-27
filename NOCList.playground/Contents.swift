@@ -117,7 +117,24 @@ findHighRisk()
 //: ## Step 9
 //: Create a function that finds totals for low, mid, and high level agents. Low level agents are 4 or lower, mid are 5-7, and high level agents are 8 or above. Iterate over each agent and use a `switch` statement to determine their level group. At the end of the function, print a statement like the following: "# low level agents, # mid level agents, and # high level agents"
 
-
+func totalOfLevels() {
+    var low = 0
+    var mid = 0
+    var high = 0
+    
+    for agent in agentsArray {
+        switch agent.2 {
+        case 1,2,3,4:
+            low += 1
+        case 5,6,7:
+            mid += 1
+        default:
+            high += 1
+        }
+    }
+    
+    print("\(low) low level agents, \(mid) mid level agents, \(high), high level agents")
+}
 
 //: ## Step 10
 //: Call the above function and check its output in the console.
