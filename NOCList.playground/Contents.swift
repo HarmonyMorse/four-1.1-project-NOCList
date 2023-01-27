@@ -31,6 +31,18 @@ This message will self destruct in 5 seconds.
 //: Create constants for each of the above agents and store all their information in a tuple.
 
 
+let agent1 = ("Ethan Hunt", "Tom Cruise", 8, false)
+let agent2 = ("Jim Phelps", "Jon Voight", 9, true)
+let agent3 = ("Claire Phelps", "Emmanuelle Beart", 5, false)
+let agent4 = ("Eugene Kittridge", "Henry Czerny", 10, true)
+let agent5 = ("Franz Krieger", "Jean Reno", 4, false)
+let agent6 = ("Luther Stickell", "Ving Rhames", 4, false)
+let agent7 = ("Sarah Davies", "Kristin Scott Thomas", 5, true)
+let agent8 = ("Max RotGrab", "Vanessa Redgrave", 4, false)
+let agent9 = ("Hannah Williams", "Ingeborga Dapkūnaitė", 5, true)
+let agent10 = ("Jack Harmon", "Emilio Estevaz", 6, true)
+let agent11 = ("Frank Barnes", "Dale Dye", 9, false)
+
 
 //: ## Step 2
 //: Place the above constants inside an array. Declare this array as a constant as well.
