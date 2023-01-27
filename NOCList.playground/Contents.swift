@@ -97,7 +97,18 @@ print("\(findCleanAgents().count) clean agents out of \(agentsArray.count) total
 //: - Example: `Jon Voight, level: 9 **WARNING** **COMPROMISED**`
 
 
-
+func findHighRisk() {
+    for agent in agentsArray {
+        var message = ""
+        if agent.2 >= 8 {
+            message.append("\(agent.1), level: \(agent.2)")
+            if agent.3 == true {
+                message.append(" **WARNING** **COMPROMISED**")
+            }
+            print(message)
+        }
+    }
+}
 //: ## Step 8
 //: Call the above function and check the output in the console to ensure it is functioning properly.
 
