@@ -139,7 +139,7 @@ func totalOfLevels() {
 //: ## Step 10
 //: Call the above function and check its output in the console.
 
-
+totalOfLevels()
 
 //: ## Step 11 (Optional)
 //: Create and call a function that prints the cover names and access levels of all agents, but the list should be sorted by access level, in ascending order.
